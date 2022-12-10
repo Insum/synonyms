@@ -7,4 +7,10 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="GroupDocs.Search" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="GroupDocs.Search" Version="22.11.0" />
+  </ItemGroup>
 </Project>
